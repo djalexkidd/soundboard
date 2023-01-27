@@ -25,6 +25,7 @@ custom_fonts/font = SubResource( 1 )
 text = "Soundboard"
 
 [node name="Sounds" type="ScrollContainer" parent="."]
+margin_left = 30.0
 margin_top = 88.0
 margin_right = 720.0
 margin_bottom = 1024.0
@@ -77,3 +78,6 @@ EntryAudio = "res://assets/sounds/DS411.ogg"
 margin_top = 215.0
 margin_right = 128.0
 margin_bottom = 426.0
+EntryName = "Non"
+EntryImage = "res://assets/images/non.png"
+EntryAudio = "res://assets/sounds/DS421.ogg"
