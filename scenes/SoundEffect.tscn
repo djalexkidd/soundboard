@@ -35,3 +35,4 @@ align = 1
 [node name="SoundEffectAudio" type="AudioStreamPlayer" parent="."]
 
 [connection signal="pressed" from="CenterContainer/SoundEffectButton" to="." method="_on_SoundEffectButton_pressed"]
+[connection signal="finished" from="SoundEffectAudio" to="." method="_on_SoundEffectAudio_finished"]

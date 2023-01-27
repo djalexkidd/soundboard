@@ -37,16 +37,25 @@ columns = 3
 [node name="SoundEffect" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
 margin_right = 218.0
 margin_bottom = 170.0
+EntryName = "Ah !"
+EntryImage = "res://assets/images/ah.jpg"
+EntryAudio = "res://assets/sounds/DS401.ogg"
 
 [node name="SoundEffect2" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
 margin_left = 222.0
 margin_right = 440.0
 margin_bottom = 170.0
+EntryName = "OOF"
+EntryImage = "res://assets/images/oof.png"
+EntryAudio = "res://assets/sounds/oof.wav"
 
 [node name="SoundEffect3" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
 margin_left = 444.0
 margin_right = 662.0
 margin_bottom = 170.0
+EntryName = "Bonjour"
+EntryImage = "res://assets/images/bonjour.png"
+EntryAudio = "res://assets/sounds/DS407.ogg"
 
 [node name="SoundEffect4" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
 margin_top = 174.0

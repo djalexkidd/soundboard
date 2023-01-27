@@ -12,3 +12,7 @@ func _ready():
 
 func _on_SoundEffectButton_pressed():
 	$SoundEffectAudio.play()
+	$CenterContainer/SoundEffectButton.set_modulate(Color(1,1,1,0.5))
+
+func _on_SoundEffectAudio_finished():
+	$CenterContainer/SoundEffectButton.set_modulate(Color(1,1,1,1))
