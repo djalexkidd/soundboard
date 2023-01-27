@@ -30,46 +30,47 @@ margin_right = 720.0
 margin_bottom = 1024.0
 
 [node name="GridContainer" type="GridContainer" parent="Sounds"]
-margin_right = 662.0
-margin_bottom = 344.0
-columns = 3
+margin_right = 656.0
+margin_bottom = 426.0
+columns = 5
 
 [node name="SoundEffect" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_right = 218.0
-margin_bottom = 170.0
+margin_right = 128.0
+margin_bottom = 211.0
 EntryName = "Ah !"
 EntryImage = "res://assets/images/ah.jpg"
 EntryAudio = "res://assets/sounds/DS401.ogg"
 
 [node name="SoundEffect2" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 222.0
-margin_right = 440.0
-margin_bottom = 170.0
+margin_left = 132.0
+margin_right = 260.0
+margin_bottom = 211.0
 EntryName = "OOF"
 EntryImage = "res://assets/images/oof.png"
 EntryAudio = "res://assets/sounds/oof.wav"
 
 [node name="SoundEffect3" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 444.0
-margin_right = 662.0
-margin_bottom = 170.0
+margin_left = 264.0
+margin_right = 392.0
+margin_bottom = 211.0
 EntryName = "Bonjour"
 EntryImage = "res://assets/images/bonjour.png"
 EntryAudio = "res://assets/sounds/DS407.ogg"
 
 [node name="SoundEffect4" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_top = 174.0
-margin_right = 218.0
-margin_bottom = 344.0
+margin_left = 396.0
+margin_right = 524.0
+margin_bottom = 211.0
+EntryName = "Mais oui c'est clair"
+EntryImage = "res://assets/images/eddymalou.png"
+EntryAudio = "res://assets/sounds/DS410.ogg"
 
 [node name="SoundEffect5" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 222.0
-margin_top = 174.0
-margin_right = 440.0
-margin_bottom = 344.0
+margin_left = 528.0
+margin_right = 656.0
+margin_bottom = 211.0
 
 [node name="SoundEffect6" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 444.0
-margin_top = 174.0
-margin_right = 662.0
-margin_bottom = 344.0
+margin_top = 215.0
+margin_right = 128.0
+margin_bottom = 426.0
