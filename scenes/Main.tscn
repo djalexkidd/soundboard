@@ -32,7 +32,7 @@ margin_bottom = 1024.0
 
 [node name="GridContainer" type="GridContainer" parent="Sounds"]
 margin_right = 656.0
-margin_bottom = 641.0
+margin_bottom = 856.0
 columns = 5
 
 [node name="SoundEffect1" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
@@ -161,3 +161,47 @@ margin_bottom = 641.0
 EntryName = "Caca dans des raviolis"
 EntryImage = "res://assets/images/caca.jpg"
 EntryAudio = "res://assets/sounds/DS417.ogg"
+
+[node name="SoundEffect16" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_top = 645.0
+margin_right = 128.0
+margin_bottom = 856.0
+EntryName = "Peppa Pig"
+EntryImage = "res://assets/images/peppapig.png"
+EntryAudio = "res://assets/sounds/DS442.ogg"
+
+[node name="SoundEffect17" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 132.0
+margin_top = 645.0
+margin_right = 260.0
+margin_bottom = 856.0
+EntryName = "Laupok NAN!"
+EntryImage = "res://assets/images/lpknan.png"
+EntryAudio = "res://assets/sounds/DS445.ogg"
+
+[node name="SoundEffect18" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 264.0
+margin_top = 645.0
+margin_right = 392.0
+margin_bottom = 856.0
+EntryName = "Laupok PUTAIN"
+EntryImage = "res://assets/images/lpknan.png"
+EntryAudio = "res://assets/sounds/DS443.ogg"
+
+[node name="SoundEffect19" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 396.0
+margin_top = 645.0
+margin_right = 524.0
+margin_bottom = 856.0
+EntryName = "Kiyu Squeezie"
+EntryImage = "res://assets/images/kiyu.jpg"
+EntryAudio = "res://assets/sounds/kiyu_squeezie.ogg"
+
+[node name="SoundEffect20" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 528.0
+margin_top = 645.0
+margin_right = 656.0
+margin_bottom = 856.0
+EntryName = "Cool bananas"
+EntryImage = "res://assets/images/banana.png"
+EntryAudio = "res://assets/sounds/oh-these-are-pretty-cool-bananas.mp3"

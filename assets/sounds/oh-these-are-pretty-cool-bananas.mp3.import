@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/oh-these-are-pretty-cool-bananas.mp3-90dfb603dfa288174f51ac31d9064bfe.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds/oh-these-are-pretty-cool-bananas.mp3"
+dest_files=[ "res://.import/oh-these-are-pretty-cool-bananas.mp3-90dfb603dfa288174f51ac31d9064bfe.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
