@@ -125,3 +125,39 @@ margin_bottom = 641.0
 EntryName = "Klaxon MLG"
 EntryImage = "res://assets/images/airhorn.png"
 EntryAudio = "res://assets/sounds/mlg-airhorn.mp3"
+
+[node name="SoundEffect12" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 132.0
+margin_top = 430.0
+margin_right = 260.0
+margin_bottom = 641.0
+EntryName = "Philippe le parapet"
+EntryImage = "res://assets/images/philippe.png"
+EntryAudio = "res://assets/sounds/DS456.ogg"
+
+[node name="SoundEffect13" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 264.0
+margin_top = 430.0
+margin_right = 392.0
+margin_bottom = 641.0
+EntryName = "La boule magique"
+EntryImage = "res://assets/images/boulemagique.jpg"
+EntryAudio = "res://assets/sounds/DS436.ogg"
+
+[node name="SoundEffect14" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 396.0
+margin_top = 430.0
+margin_right = 524.0
+margin_bottom = 641.0
+EntryName = "Buzzer QPUC"
+EntryImage = "res://assets/images/buzzer.jpg"
+EntryAudio = "res://assets/sounds/DS461.ogg"
+
+[node name="SoundEffect15" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 528.0
+margin_top = 430.0
+margin_right = 656.0
+margin_bottom = 641.0
+EntryName = "Caca dans des raviolis"
+EntryImage = "res://assets/images/caca.jpg"
+EntryAudio = "res://assets/sounds/DS417.ogg"
