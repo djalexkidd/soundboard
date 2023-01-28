@@ -32,10 +32,10 @@ margin_bottom = 1024.0
 
 [node name="GridContainer" type="GridContainer" parent="Sounds"]
 margin_right = 656.0
-margin_bottom = 426.0
+margin_bottom = 641.0
 columns = 5
 
-[node name="SoundEffect" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+[node name="SoundEffect1" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
 margin_right = 128.0
 margin_bottom = 211.0
 EntryName = "Ah !"
@@ -81,3 +81,47 @@ margin_bottom = 426.0
 EntryName = "Non"
 EntryImage = "res://assets/images/non.png"
 EntryAudio = "res://assets/sounds/DS421.ogg"
+
+[node name="SoundEffect7" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 132.0
+margin_top = 215.0
+margin_right = 260.0
+margin_bottom = 426.0
+EntryName = "Oui"
+EntryImage = "res://assets/images/oui.png"
+EntryAudio = "res://assets/sounds/DS435.ogg"
+
+[node name="SoundEffect8" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 264.0
+margin_top = 215.0
+margin_right = 392.0
+margin_bottom = 426.0
+EntryName = "LéoTechMaker"
+EntryImage = "res://assets/images/leo.png"
+EntryAudio = "res://assets/sounds/DS432.ogg"
+
+[node name="SoundEffect9" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 396.0
+margin_top = 215.0
+margin_right = 524.0
+margin_bottom = 426.0
+EntryName = "Issou"
+EntryImage = "res://assets/images/issou.jpg"
+EntryAudio = "res://assets/sounds/DS428.ogg"
+
+[node name="SoundEffect10" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 528.0
+margin_top = 215.0
+margin_right = 656.0
+margin_bottom = 426.0
+EntryName = "Wow!"
+EntryImage = "res://assets/images/wow.png"
+EntryAudio = "res://assets/sounds/DS408.ogg"
+
+[node name="SoundEffect11" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_top = 430.0
+margin_right = 128.0
+margin_bottom = 641.0
+EntryName = "Klaxon MLG"
+EntryImage = "res://assets/images/airhorn.png"
+EntryAudio = "res://assets/sounds/mlg-airhorn.mp3"

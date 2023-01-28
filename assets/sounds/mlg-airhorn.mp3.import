@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/mlg-airhorn.mp3-8f39d32ec79e92528dd5d9bfd35b7615.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds/mlg-airhorn.mp3"
+dest_files=[ "res://.import/mlg-airhorn.mp3-8f39d32ec79e92528dd5d9bfd35b7615.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
