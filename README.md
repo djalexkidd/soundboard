@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="128" height="128" src="icon.png">
+  <img src="icon.png">
 </p>
 
 # Soundboard
