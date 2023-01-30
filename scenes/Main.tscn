@@ -295,5 +295,14 @@ EntryName = "C'est notre projet"
 EntryImage = "res://assets/images/macron.jpg"
 EntryAudio = "res://assets/sounds/DS457.ogg"
 
+[node name="SoundEffect28" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 264.0
+margin_top = 1075.0
+margin_right = 392.0
+margin_bottom = 1286.0
+EntryName = "C'est normal en russie"
+EntryImage = "res://assets/images/russie.png"
+EntryAudio = "res://assets/sounds/DS433.ogg"
+
 [connection signal="pressed" from="Header/SettingsButton" to="." method="_on_SettingsButton_pressed"]
 [connection signal="pressed" from="Header/CreditsButton" to="." method="_on_CreditsButton_pressed"]
