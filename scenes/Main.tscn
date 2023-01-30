@@ -256,7 +256,7 @@ margin_top = 860.0
 margin_right = 524.0
 margin_bottom = 1071.0
 EntryName = "Nique ta mère"
-EntryImage = "res://assets/images/etchebest.jpg"
+EntryImage = "res://assets/images/marine.jpg"
 EntryAudio = "res://assets/sounds/DS423.ogg"
 
 [node name="SoundEffect24" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
@@ -282,7 +282,7 @@ margin_top = 1075.0
 margin_right = 260.0
 margin_bottom = 1286.0
 EntryName = "C'est notre projet"
-EntryImage = "res://assets/images/melanchon.jpg"
+EntryImage = "res://assets/images/macron.jpg"
 EntryAudio = "res://assets/sounds/DS457.ogg"
 
 [connection signal="pressed" from="Header/SettingsButton" to="." method="_on_SettingsButton_pressed"]
