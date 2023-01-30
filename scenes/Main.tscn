@@ -60,7 +60,7 @@ scroll_horizontal_enabled = false
 
 [node name="GridContainer" type="GridContainer" parent="Sounds"]
 margin_right = 656.0
-margin_bottom = 1286.0
+margin_bottom = 1501.0
 columns = 5
 
 [node name="SoundEffect1" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
@@ -295,14 +295,40 @@ EntryName = "C'est notre projet"
 EntryImage = "res://assets/images/macron.jpg"
 EntryAudio = "res://assets/sounds/DS457.ogg"
 
-[node name="SoundEffect28" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+[node name="SoundEffect29" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
 margin_left = 264.0
 margin_top = 1075.0
 margin_right = 392.0
 margin_bottom = 1286.0
+EntryName = "je suis en colère"
+EntryImage = "res://assets/images/colere.jpg"
+EntryAudio = "res://assets/sounds/DS459.ogg"
+
+[node name="SoundEffect28" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 396.0
+margin_top = 1075.0
+margin_right = 524.0
+margin_bottom = 1286.0
 EntryName = "C'est normal en russie"
 EntryImage = "res://assets/images/russie.png"
 EntryAudio = "res://assets/sounds/DS433.ogg"
+
+[node name="SoundEffect30" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 528.0
+margin_top = 1075.0
+margin_right = 656.0
+margin_bottom = 1286.0
+EntryName = "Aha"
+EntryImage = "res://assets/images/russie.png"
+EntryAudio = "res://assets/sounds/DS418.ogg"
+
+[node name="SoundEffect31" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_top = 1290.0
+margin_right = 128.0
+margin_bottom = 1501.0
+EntryName = "Qu'est ce c'est ce truc la"
+EntryImage = "res://assets/images/sylvaindurif.jpg"
+EntryAudio = "res://assets/sounds/DS439.ogg"
 
 [connection signal="pressed" from="Header/SettingsButton" to="." method="_on_SettingsButton_pressed"]
 [connection signal="pressed" from="Header/CreditsButton" to="." method="_on_CreditsButton_pressed"]
