@@ -9,6 +9,7 @@ func _ready():
 	$CenterContainer/SoundEffectButton.set_normal_texture(load(EntryImage))
 	var audiostream = load(EntryAudio)
 	$SoundEffectAudio.set_stream(audiostream)
+	$SoundEffectAudio.pitch_scale = Global.pitch
 
 func _on_SoundEffectButton_pressed():
 	$SoundEffectAudio.play()
