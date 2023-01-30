@@ -220,3 +220,30 @@ margin_bottom = 1071.0
 EntryName = "Énorme"
 EntryImage = "res://assets/images/jamy.jpg"
 EntryAudio = "res://assets/sounds/DS460.ogg"
+
+[node name="SoundEffect22" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 132.0
+margin_top = 860.0
+margin_right = 260.0
+margin_bottom = 1071.0
+EntryName = "Merde c'est con ça"
+EntryImage = "res://assets/images/etchebest.jpg"
+EntryAudio = "res://assets/sounds/DS415.ogg"
+
+[node name="SoundEffect23" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 264.0
+margin_top = 860.0
+margin_right = 392.0
+margin_bottom = 1071.0
+EntryName = "Nique ta mère"
+EntryImage = "res://assets/images/etchebest.jpg"
+EntryAudio = "res://assets/sounds/DS423.ogg"
+
+[node name="SoundEffect24" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 396.0
+margin_top = 860.0
+margin_right = 524.0
+margin_bottom = 1071.0
+EntryName = "Maintenant à Paris"
+EntryImage = "res://assets/images/etchebest.jpg"
+EntryAudio = "res://assets/sounds/DS458.ogg"
