@@ -50,7 +50,7 @@ scroll_horizontal_enabled = false
 
 [node name="GridContainer" type="GridContainer" parent="Sounds"]
 margin_right = 656.0
-margin_bottom = 1071.0
+margin_bottom = 1286.0
 columns = 5
 
 [node name="SoundEffect1" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
@@ -241,31 +241,48 @@ EntryName = "Merde c'est con ça"
 EntryImage = "res://assets/images/etchebest.jpg"
 EntryAudio = "res://assets/sounds/DS415.ogg"
 
-[node name="SoundEffect23" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+[node name="SoundEffect26" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
 margin_left = 264.0
 margin_top = 860.0
 margin_right = 392.0
+margin_bottom = 1071.0
+EntryName = "PINGAS"
+EntryImage = "res://assets/images/pingas.png"
+EntryAudio = "res://assets/sounds/DS463.ogg"
+
+[node name="SoundEffect23" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 396.0
+margin_top = 860.0
+margin_right = 524.0
 margin_bottom = 1071.0
 EntryName = "Nique ta mère"
 EntryImage = "res://assets/images/etchebest.jpg"
 EntryAudio = "res://assets/sounds/DS423.ogg"
 
 [node name="SoundEffect24" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 396.0
-margin_top = 860.0
-margin_right = 524.0
-margin_bottom = 1071.0
-EntryName = "Maintenant à Paris"
-EntryImage = "res://assets/images/etchebest.jpg"
-EntryAudio = "res://assets/sounds/DS458.ogg"
-
-[node name="SoundEffect25" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
 margin_left = 528.0
 margin_top = 860.0
 margin_right = 656.0
 margin_bottom = 1071.0
-EntryName = "PINGAS"
-EntryImage = "res://assets/images/etchebest.jpg"
-EntryAudio = "res://assets/sounds/DS463.ogg"
+EntryName = "Jeanne au secours"
+EntryImage = "res://assets/images/jeanneausecours.jpg"
+EntryAudio = "res://assets/sounds/DS404.ogg"
+
+[node name="SoundEffect25" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_top = 1075.0
+margin_right = 128.0
+margin_bottom = 1286.0
+EntryName = "Maintenant à Paris"
+EntryImage = "res://assets/images/melanchon.jpg"
+EntryAudio = "res://assets/sounds/DS458.ogg"
+
+[node name="SoundEffect27" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 132.0
+margin_top = 1075.0
+margin_right = 260.0
+margin_bottom = 1286.0
+EntryName = "C'est notre projet"
+EntryImage = "res://assets/images/melanchon.jpg"
+EntryAudio = "res://assets/sounds/DS457.ogg"
 
 [connection signal="pressed" from="Header/SettingsButton" to="." method="_on_SettingsButton_pressed"]
