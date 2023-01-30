@@ -259,4 +259,13 @@ EntryName = "Maintenant à Paris"
 EntryImage = "res://assets/images/etchebest.jpg"
 EntryAudio = "res://assets/sounds/DS458.ogg"
 
+[node name="SoundEffect25" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 528.0
+margin_top = 860.0
+margin_right = 656.0
+margin_bottom = 1071.0
+EntryName = "PINGAS"
+EntryImage = "res://assets/images/etchebest.jpg"
+EntryAudio = "res://assets/sounds/DS463.ogg"
+
 [connection signal="pressed" from="Header/SettingsButton" to="." method="_on_SettingsButton_pressed"]
