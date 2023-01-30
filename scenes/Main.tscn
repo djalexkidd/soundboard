@@ -319,7 +319,7 @@ margin_top = 1075.0
 margin_right = 656.0
 margin_bottom = 1286.0
 EntryName = "Aha"
-EntryImage = "res://assets/images/russie.png"
+EntryImage = "res://assets/images/mickey.jpg"
 EntryAudio = "res://assets/sounds/DS418.ogg"
 
 [node name="SoundEffect31" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
@@ -329,6 +329,15 @@ margin_bottom = 1501.0
 EntryName = "Qu'est ce c'est ce truc la"
 EntryImage = "res://assets/images/sylvaindurif.jpg"
 EntryAudio = "res://assets/sounds/DS439.ogg"
+
+[node name="SoundEffect32" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 132.0
+margin_top = 1290.0
+margin_right = 260.0
+margin_bottom = 1501.0
+EntryName = "Ça va bien se passer"
+EntryImage = "res://assets/images/maitreyoda.jpg"
+EntryAudio = "res://assets/sounds/DS419.ogg"
 
 [connection signal="pressed" from="Header/SettingsButton" to="." method="_on_SettingsButton_pressed"]
 [connection signal="pressed" from="Header/CreditsButton" to="." method="_on_CreditsButton_pressed"]
