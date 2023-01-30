@@ -86,258 +86,276 @@ EntryName = "Bonjour"
 EntryImage = "res://assets/images/bonjour.png"
 EntryAudio = "res://assets/sounds/DS407.ogg"
 
-[node name="SoundEffect4" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+[node name="SoundEffect33" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
 margin_left = 396.0
 margin_right = 524.0
+margin_bottom = 211.0
+EntryName = "IIIIIR"
+EntryImage = "res://assets/images/iir.jpg"
+EntryAudio = "res://assets/sounds/iir.ogg"
+
+[node name="SoundEffect4" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 528.0
+margin_right = 656.0
 margin_bottom = 211.0
 EntryName = "Mais oui c'est clair"
 EntryImage = "res://assets/images/eddymalou.png"
 EntryAudio = "res://assets/sounds/DS410.ogg"
 
 [node name="SoundEffect5" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 528.0
-margin_right = 656.0
-margin_bottom = 211.0
+margin_top = 215.0
+margin_right = 128.0
+margin_bottom = 426.0
 EntryName = "PAPA"
 EntryImage = "res://assets/images/papa.png"
 EntryAudio = "res://assets/sounds/DS411.ogg"
 
 [node name="SoundEffect6" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 132.0
 margin_top = 215.0
-margin_right = 128.0
+margin_right = 260.0
 margin_bottom = 426.0
 EntryName = "Non"
 EntryImage = "res://assets/images/non.png"
 EntryAudio = "res://assets/sounds/DS421.ogg"
 
 [node name="SoundEffect7" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 132.0
+margin_left = 264.0
 margin_top = 215.0
-margin_right = 260.0
+margin_right = 392.0
 margin_bottom = 426.0
 EntryName = "Oui"
 EntryImage = "res://assets/images/oui.png"
 EntryAudio = "res://assets/sounds/DS435.ogg"
 
 [node name="SoundEffect8" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 264.0
+margin_left = 396.0
 margin_top = 215.0
-margin_right = 392.0
+margin_right = 524.0
 margin_bottom = 426.0
 EntryName = "LéoTechMaker"
 EntryImage = "res://assets/images/leo.png"
 EntryAudio = "res://assets/sounds/DS432.ogg"
 
 [node name="SoundEffect9" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 396.0
+margin_left = 528.0
 margin_top = 215.0
-margin_right = 524.0
+margin_right = 656.0
 margin_bottom = 426.0
 EntryName = "Issou"
 EntryImage = "res://assets/images/issou.jpg"
 EntryAudio = "res://assets/sounds/DS428.ogg"
 
 [node name="SoundEffect10" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 528.0
-margin_top = 215.0
-margin_right = 656.0
-margin_bottom = 426.0
+margin_top = 430.0
+margin_right = 128.0
+margin_bottom = 641.0
 EntryName = "Wow!"
 EntryImage = "res://assets/images/wow.png"
 EntryAudio = "res://assets/sounds/DS408.ogg"
 
 [node name="SoundEffect11" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 132.0
 margin_top = 430.0
-margin_right = 128.0
+margin_right = 260.0
 margin_bottom = 641.0
 EntryName = "Klaxon MLG"
 EntryImage = "res://assets/images/airhorn.png"
 EntryAudio = "res://assets/sounds/mlg-airhorn.mp3"
 
 [node name="SoundEffect12" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 132.0
+margin_left = 264.0
 margin_top = 430.0
-margin_right = 260.0
+margin_right = 392.0
 margin_bottom = 641.0
 EntryName = "Philippe le parapet"
 EntryImage = "res://assets/images/philippe.png"
 EntryAudio = "res://assets/sounds/DS456.ogg"
 
 [node name="SoundEffect13" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 264.0
+margin_left = 396.0
 margin_top = 430.0
-margin_right = 392.0
+margin_right = 524.0
 margin_bottom = 641.0
 EntryName = "La boule magique"
 EntryImage = "res://assets/images/boulemagique.jpg"
 EntryAudio = "res://assets/sounds/DS436.ogg"
 
 [node name="SoundEffect14" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 396.0
+margin_left = 528.0
 margin_top = 430.0
-margin_right = 524.0
+margin_right = 656.0
 margin_bottom = 641.0
 EntryName = "Buzzer QPUC"
 EntryImage = "res://assets/images/buzzer.jpg"
 EntryAudio = "res://assets/sounds/DS461.ogg"
 
 [node name="SoundEffect15" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 528.0
-margin_top = 430.0
-margin_right = 656.0
-margin_bottom = 641.0
+margin_top = 645.0
+margin_right = 128.0
+margin_bottom = 856.0
 EntryName = "Caca dans des raviolis"
 EntryImage = "res://assets/images/caca.jpg"
 EntryAudio = "res://assets/sounds/DS417.ogg"
 
 [node name="SoundEffect16" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 132.0
 margin_top = 645.0
-margin_right = 128.0
+margin_right = 260.0
 margin_bottom = 856.0
 EntryName = "Peppa Pig"
 EntryImage = "res://assets/images/peppapig.png"
 EntryAudio = "res://assets/sounds/DS442.ogg"
 
 [node name="SoundEffect17" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 132.0
+margin_left = 264.0
 margin_top = 645.0
-margin_right = 260.0
+margin_right = 392.0
 margin_bottom = 856.0
 EntryName = "Laupok NAN!"
 EntryImage = "res://assets/images/lpknan.png"
 EntryAudio = "res://assets/sounds/DS445.ogg"
 
 [node name="SoundEffect18" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 264.0
+margin_left = 396.0
 margin_top = 645.0
-margin_right = 392.0
+margin_right = 524.0
 margin_bottom = 856.0
 EntryName = "Laupok PUTAIN"
 EntryImage = "res://assets/images/lpknan.png"
 EntryAudio = "res://assets/sounds/DS443.ogg"
 
 [node name="SoundEffect19" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 396.0
+margin_left = 528.0
 margin_top = 645.0
-margin_right = 524.0
+margin_right = 656.0
 margin_bottom = 856.0
 EntryName = "Kiyu Squeezie"
 EntryImage = "res://assets/images/kiyu.jpg"
 EntryAudio = "res://assets/sounds/kiyu_squeezie.ogg"
 
 [node name="SoundEffect20" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 528.0
-margin_top = 645.0
-margin_right = 656.0
-margin_bottom = 856.0
+margin_top = 860.0
+margin_right = 128.0
+margin_bottom = 1071.0
 EntryName = "Cool bananas"
 EntryImage = "res://assets/images/banana.png"
 EntryAudio = "res://assets/sounds/oh-these-are-pretty-cool-bananas.mp3"
 
 [node name="SoundEffect21" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 132.0
 margin_top = 860.0
-margin_right = 128.0
+margin_right = 260.0
 margin_bottom = 1071.0
 EntryName = "Énorme"
 EntryImage = "res://assets/images/jamy.jpg"
 EntryAudio = "res://assets/sounds/DS460.ogg"
 
 [node name="SoundEffect22" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 132.0
+margin_left = 264.0
 margin_top = 860.0
-margin_right = 260.0
+margin_right = 392.0
 margin_bottom = 1071.0
 EntryName = "Merde c'est con ça"
 EntryImage = "res://assets/images/etchebest.jpg"
 EntryAudio = "res://assets/sounds/DS415.ogg"
 
 [node name="SoundEffect26" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 264.0
+margin_left = 396.0
 margin_top = 860.0
-margin_right = 392.0
+margin_right = 524.0
 margin_bottom = 1071.0
 EntryName = "PINGAS"
 EntryImage = "res://assets/images/pingas.png"
 EntryAudio = "res://assets/sounds/DS463.ogg"
 
 [node name="SoundEffect23" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 396.0
+margin_left = 528.0
 margin_top = 860.0
-margin_right = 524.0
+margin_right = 656.0
 margin_bottom = 1071.0
 EntryName = "Nique ta mère"
 EntryImage = "res://assets/images/marine.jpg"
 EntryAudio = "res://assets/sounds/DS423.ogg"
 
 [node name="SoundEffect24" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 528.0
-margin_top = 860.0
-margin_right = 656.0
-margin_bottom = 1071.0
+margin_top = 1075.0
+margin_right = 128.0
+margin_bottom = 1286.0
 EntryName = "Jeanne au secours"
 EntryImage = "res://assets/images/jeanneausecours.jpg"
 EntryAudio = "res://assets/sounds/DS404.ogg"
 
 [node name="SoundEffect25" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 132.0
 margin_top = 1075.0
-margin_right = 128.0
+margin_right = 260.0
 margin_bottom = 1286.0
 EntryName = "Maintenant à Paris"
 EntryImage = "res://assets/images/melanchon.jpg"
 EntryAudio = "res://assets/sounds/DS458.ogg"
 
 [node name="SoundEffect27" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 132.0
+margin_left = 264.0
 margin_top = 1075.0
-margin_right = 260.0
+margin_right = 392.0
 margin_bottom = 1286.0
 EntryName = "C'est notre projet"
 EntryImage = "res://assets/images/macron.jpg"
 EntryAudio = "res://assets/sounds/DS457.ogg"
 
 [node name="SoundEffect29" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 264.0
+margin_left = 396.0
 margin_top = 1075.0
-margin_right = 392.0
+margin_right = 524.0
 margin_bottom = 1286.0
 EntryName = "je suis en colère"
 EntryImage = "res://assets/images/colere.jpg"
 EntryAudio = "res://assets/sounds/DS459.ogg"
 
 [node name="SoundEffect28" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 396.0
+margin_left = 528.0
 margin_top = 1075.0
-margin_right = 524.0
+margin_right = 656.0
 margin_bottom = 1286.0
 EntryName = "C'est normal en russie"
 EntryImage = "res://assets/images/russie.png"
 EntryAudio = "res://assets/sounds/DS433.ogg"
 
 [node name="SoundEffect30" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 528.0
-margin_top = 1075.0
-margin_right = 656.0
-margin_bottom = 1286.0
+margin_top = 1290.0
+margin_right = 128.0
+margin_bottom = 1501.0
 EntryName = "Aha"
 EntryImage = "res://assets/images/mickey.jpg"
 EntryAudio = "res://assets/sounds/DS418.ogg"
 
 [node name="SoundEffect31" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 132.0
 margin_top = 1290.0
-margin_right = 128.0
+margin_right = 260.0
 margin_bottom = 1501.0
 EntryName = "Qu'est ce c'est ce truc la"
 EntryImage = "res://assets/images/sylvaindurif.jpg"
 EntryAudio = "res://assets/sounds/DS439.ogg"
 
 [node name="SoundEffect32" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
-margin_left = 132.0
+margin_left = 264.0
 margin_top = 1290.0
-margin_right = 260.0
+margin_right = 392.0
 margin_bottom = 1501.0
 EntryName = "Ça va bien se passer"
 EntryImage = "res://assets/images/maitreyoda.jpg"
 EntryAudio = "res://assets/sounds/DS419.ogg"
+
+[node name="SoundEffect34" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 396.0
+margin_top = 1290.0
+margin_right = 524.0
+margin_bottom = 1501.0
+EntryName = "Kouizine"
+EntryImage = "res://assets/images/kouizine.png"
+EntryAudio = "res://assets/sounds/kouizine.ogg"
 
 [connection signal="pressed" from="Header/SettingsButton" to="." method="_on_SettingsButton_pressed"]
 [connection signal="pressed" from="Header/CreditsButton" to="." method="_on_CreditsButton_pressed"]

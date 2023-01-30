@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/kouizine.ogg-31799baf9e8f47f6b89a4187131e0d85.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/kouizine.ogg"
+dest_files=[ "res://.import/kouizine.ogg-31799baf9e8f47f6b89a4187131e0d85.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
