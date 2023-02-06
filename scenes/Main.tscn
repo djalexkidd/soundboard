@@ -357,5 +357,14 @@ EntryName = "Kouizine"
 EntryImage = "res://assets/images/kouizine.png"
 EntryAudio = "res://assets/sounds/kouizine.ogg"
 
+[node name="SoundEffect35" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 528.0
+margin_top = 1290.0
+margin_right = 656.0
+margin_bottom = 1501.0
+EntryName = "C'est honteux"
+EntryImage = "res://assets/images/honteux.jpg"
+EntryAudio = "res://assets/sounds/DS448.ogg"
+
 [connection signal="pressed" from="Header/SettingsButton" to="." method="_on_SettingsButton_pressed"]
 [connection signal="pressed" from="Header/CreditsButton" to="." method="_on_CreditsButton_pressed"]
