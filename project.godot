@@ -12,6 +12,8 @@ config_version=4
 
 config/name="Soundboard"
 run/main_scene="res://scenes/Main.tscn"
+boot_splash/image="res://assets/splash.png"
+boot_splash/bg_color=Color( 0, 0, 0.388235, 1 )
 config/icon="res://icon.png"
 
 [autoload]
