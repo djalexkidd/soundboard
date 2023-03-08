@@ -60,7 +60,7 @@ scroll_horizontal_enabled = false
 
 [node name="GridContainer" type="GridContainer" parent="Sounds"]
 margin_right = 656.0
-margin_bottom = 1501.0
+margin_bottom = 1716.0
 columns = 5
 
 [node name="SoundEffect1" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
@@ -365,6 +365,23 @@ margin_bottom = 1501.0
 EntryName = "C'est honteux"
 EntryImage = "res://assets/images/honteux.jpg"
 EntryAudio = "res://assets/sounds/DS448.ogg"
+
+[node name="SoundEffect36" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_top = 1505.0
+margin_right = 128.0
+margin_bottom = 1716.0
+EntryName = "Mais vous fumez"
+EntryImage = "res://assets/images/sarko.png"
+EntryAudio = "res://assets/sounds/vous_fumez.ogg"
+
+[node name="SoundEffect37" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 132.0
+margin_top = 1505.0
+margin_right = 260.0
+margin_bottom = 1716.0
+EntryName = "SALAUD!"
+EntryImage = "res://assets/images/salaud.png"
+EntryAudio = "res://assets/sounds/salaud.ogg"
 
 [connection signal="pressed" from="Header/SettingsButton" to="." method="_on_SettingsButton_pressed"]
 [connection signal="pressed" from="Header/CreditsButton" to="." method="_on_CreditsButton_pressed"]

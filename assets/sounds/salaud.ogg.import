@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/salaud.ogg-6ebc1ea51924fc767a7d5ffb1eed7203.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/salaud.ogg"
+dest_files=[ "res://.import/salaud.ogg-6ebc1ea51924fc767a7d5ffb1eed7203.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
