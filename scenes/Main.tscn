@@ -385,5 +385,32 @@ EntryName = "SALAUD!"
 EntryImage = "res://assets/images/salaud.png"
 EntryAudio = "res://assets/sounds/salaud.ogg"
 
+[node name="SoundEffect38" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 264.0
+margin_top = 1505.0
+margin_right = 392.0
+margin_bottom = 1716.0
+EntryName = "C'est dégeulasse"
+EntryImage = "res://assets/images/degeulasse.png"
+EntryAudio = "res://assets/sounds/degeulasse.ogg"
+
+[node name="SoundEffect39" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 396.0
+margin_top = 1505.0
+margin_right = 524.0
+margin_bottom = 1716.0
+EntryName = "Taisez-vous"
+EntryImage = "res://assets/images/taisezvous.png"
+EntryAudio = "res://assets/sounds/taisezvous.ogg"
+
+[node name="SoundEffect40" parent="Sounds/GridContainer" instance=ExtResource( 2 )]
+margin_left = 528.0
+margin_top = 1505.0
+margin_right = 656.0
+margin_bottom = 1716.0
+EntryName = "Rheuh"
+EntryImage = "res://assets/images/rheuh.png"
+EntryAudio = "res://assets/sounds/rheuh.ogg"
+
 [connection signal="pressed" from="Header/SettingsButton" to="." method="_on_SettingsButton_pressed"]
 [connection signal="pressed" from="Header/CreditsButton" to="." method="_on_CreditsButton_pressed"]
