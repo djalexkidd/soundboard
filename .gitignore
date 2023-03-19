@@ -3,3 +3,5 @@ build/
 *.translation
 .mono/
 export_presets.cfg
+addons/
+android/

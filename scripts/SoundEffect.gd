@@ -10,8 +10,10 @@ func _ready():
 	var audiostream = load(EntryAudio)
 	$SoundEffectAudio.set_stream(audiostream)
 	
-	$SoundEffectAudio.pitch_scale = Global.speed
-	(AudioServer.get_bus_effect(0, 0) as AudioEffectPitchShift).pitch_scale = Global.pitch / Global.speed
+	if Global.pitch != 1 or Global.speed != 1:
+		$SoundEffectAudio.bus = "EffectsEnabled"
+		$SoundEffectAudio.pitch_scale = Global.speed
+		(AudioServer.get_bus_effect(1, 0) as AudioEffectPitchShift).pitch_scale = Global.pitch / Global.speed
 
 func _on_SoundEffectButton_pressed():
 	$SoundEffectAudio.play()
